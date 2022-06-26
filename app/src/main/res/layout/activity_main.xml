@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+   <ImageView
+       android:layout_width="200dp"
+       android:layout_height="200dp"
+       android:src="@drawable/twitter"
+       android:layout_gravity="center"
+       android:layout_marginTop="20dp"
+       android:contentDescription="@string/twitter_logo" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/pleas_enter_your_email_address"
+        android:gravity="center"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/pleas_enter_your_password"
+        android:gravity="center"
+        android:inputType="textPassword"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/remember_me"
+        android:onClick="rememberMe"
+        android:id="@+id/chk_rememberMe"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/tv_forgetPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/forget_password"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_an_account"
+        android:layout_gravity="center"
+        android:textColor="@color/purple_700"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>

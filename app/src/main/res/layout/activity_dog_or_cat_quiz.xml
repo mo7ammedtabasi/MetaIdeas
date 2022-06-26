@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+     android:layout_width="match_parent">
+
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".DogOrCatQuiz">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/welcome_to_dog_or_cat_quiz"
+        android:textColor="@color/purple_700"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/purple_700" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/dog_or_cat_image"
+        android:src="@drawable/dog_or_cat" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/when_talking_to_someone_do_you_maintain_eye_contact"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_question1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_never"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/never" />
+
+        <RadioButton
+            android:id="@+id/rb_someTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/some_times" />
+
+        <RadioButton
+            android:id="@+id/rb_always"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/always" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/how_often_do_you_hug_people"
+        android:textColor="@color/purple_700"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_question2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_allTheTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/all_the_time" />
+
+        <RadioButton
+            android:id="@+id/rb_notPhysicalPerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/i_m_not_a_very_physical_person" />
+
+        <RadioButton
+            android:id="@+id/rb_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/no" />
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/how_do_you_feel_about_tv"
+        android:textColor="@color/purple_700"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_question3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_occassionally"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/occassionally" />
+
+        <RadioButton
+            android:id="@+id/rb_manyTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/many_times" />
+
+        <RadioButton
+            android:id="@+id/rb_maybe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/maybe" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_getQuizResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="@string/get_quiz_result" />
+
+    <TextView
+        android:id="@+id/tv_quizResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/the_result_will_appear_hear"
+        android:textColor="@color/purple_700"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+</ScrollView>

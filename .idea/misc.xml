@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/drawable/ic_compare_arrows.xml" value="0.1535" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_calculator.xml" value="0.29322916666666665" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_connect3.xml" value="0.25" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_dog_or_cat_quiz.xml" value="0.25" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_exo_player.xml" value="0.22447916666666667" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_fake_api.xml" value="0.25" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_forget_password.xml" value="0.25" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_java_to_point_website.xml" value="0.29322916666666665" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_maps.xml" value="0.22447916666666667" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_pdfview.xml" value="0.29322916666666665" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_random_highest_mountains.xml" value="0.29322916666666665" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_registration.xml" value="0.25" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_restaurant.xml" value="0.29322916666666665" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_splach_screen.xml" value="0.22447916666666667" />
+        <entry key="..\:/appAndroidJavaEslamMedhat/MetaIdeas/app/src/main/res/layout/activity_temperature_converter.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
